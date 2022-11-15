@@ -156,8 +156,27 @@ const Hero = () => {
           </div>
         </div>
       </section>
+      {/* metabnb NFTs */}
+      <section className="bg-purpleBackground  p-6">
+        <div className=" container mx-auto max-w-[90%] text-white px-6 flex flex-col-reverse items-center space-y-4 md:flex-row md:space-y-0 md:justify-between">
+          <div className="flex flex-col items-center space-y-8 mt-12 md:mt-0 md:w-1/2 md:items-start">
+            <h1>Metabnb NFTs</h1>
+            <p className="text-center md:text-start max-w-md md:max-w-xl">
+              Discover our NFT gift cards collection. Loyal customers gets
+              amazing gift cards which are traded as NFTs. These NFTs gives our
+              cutomer access to loads of our exclusive services.
+            </p>
+            <button className="btn">Learn more</button>
+          </div>
+          <div className=" md:w-1/2">
+            <img className="w-full" src="/img/Frame59546.svg" alt="nft" />
+          </div>
+        </div>
+      </section>
     </>
   );
 };
 
 export default Hero;
+
+// container mx-auto max-w-[90%]

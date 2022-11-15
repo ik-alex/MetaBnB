@@ -2,6 +2,26 @@
 @tailwind components;
 @tailwind utilities;
 
+.btn {
+  background: #fff;
+  color: #a02279;
+  padding: 16px 20px;
+  outline: 0;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  cursor: pointer;
+  font-family: "Red Rose", "cursive";
+  width: 160px;
+  display: block;
+}
+
+.btn:hover {
+  background: transparent;
+  border-color: #fff;
+  color: #fff;
+  transition: all cubic-bezier(0.075, 0.82, 0.165, 1) 0.8s;
+}
+
 .inputs {
   position: relative;
   width: 75%;
