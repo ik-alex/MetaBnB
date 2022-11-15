@@ -1,0 +1,18 @@
+import React from "react";
+
+const Hero = () => {
+  return (
+    <section className="container mx-auto max-w-7xl px-6 mt-20">
+      <div className="flex flex-col-reverse space-y-4 md:flex-row md:space-y-0 md:space-x-8">
+        <div className="flex flex-col-4 md:max-w-1/2">
+          <h2 className="text-xl font-medium capitalize max-w-medium">
+            rent a <span className="text-purpleBackground">place</span> away
+            from <span className="tex-purpleBackground">home</span>
+          </h2>
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default Hero;

@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.inputs {
+  position: relative;
+  width: 75%;
+  margin-top: 30px;
+}
+
+.inputs > input:nth-child(1) {
+  width: 90%;
+  padding: 13px 20px;
+  border-radius: 6px;
+  outline: 0;
+  border: 2px solid #a3a3a3;
+  background: #f7f7f71a;
+  color: #333333;
+  font-weight: 600;
+  box-sizing: border-box;
+}
+
+.inputs > input:nth-child(1):focus {
+  border-color: #b840ae;
+}
